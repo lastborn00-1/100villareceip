@@ -1,0 +1,28 @@
+✅ OPTION 1: Run it normally (RECOMMENDED)
+Vite/React apps do not run inside XAMPP directly — they run using Node.js.
+✔️ Steps:
+1. Install Node.js
+Download & install Node.js (LTS):
+https://nodejs.org
+
+
+terminal/command prompt to verify if nodejs is install bash
+
+node -v
+npm -v
+
+after that locate your program folder 
+
+cd "C:\xampp\htdocs\receipt
+
+install dependencies
+
+npm install
+
+now to start a vite dev server / bash
+
+npm run dev
+
+it will give me a url like this http://localhost:5173/
+
+then i will open it in my browser 
